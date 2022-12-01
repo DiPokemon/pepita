@@ -1,1 +1,184 @@
-/*# sourceMappingURL=style.css.map */
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  overflow-x: hidden;
+}
+
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+a:not([class]) {
+  -webkit-text-decoration-skip: ink;
+          text-decoration-skip-ink: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+article > * + * {
+  margin-top: 1em;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    -webkit-animation-duration: 0.01ms !important;
+            animation-duration: 0.01ms !important;
+    -webkit-animation-iteration-count: 1 !important;
+            animation-iteration-count: 1 !important;
+    -webkit-transition-duration: 0.01ms !important;
+            transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+.d_flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.d_none {
+  display: none;
+}
+
+.section_title {
+  color: #907c4B;
+  font-family: "PFRegalTextPro";
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.section_title-text {
+  z-index: 2;
+  background-color: #fff;
+  padding: 0 40px;
+  position: relative;
+}
+
+.section_title h2:after {
+  content: "";
+  display: block;
+  height: 1px;
+  border: none;
+  background-color: #907c4B;
+  z-index: 1;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+@font-face {
+  font-family: "PFRegalTextPro";
+  src: url("../fonts/PFRegalTextPro.eot");
+  src: url("../fonts/PFRegalTextPro.eot?#iefix") format("embedded-opentype"), url("../fonts/PFRegalTextPro.woff2") format("woff2"), url("../fonts/PFRegalTextPro.woff") format("woff"), url("../fonts/PFRegalTextPro.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+}
+@font-face {
+  font-family: "PFRegalTextPro";
+  src: url("../fonts/PFRegalTextProBold.eot");
+  src: url("../fonts/PFRegalTextProBold.eot?#iefix") format("embedded-opentype"), url("../fonts/PFRegalTextProBold.woff2") format("woff2"), url("../fonts/PFRegalTextProBold.woff") format("woff"), url("../fonts/PFRegalTextProBold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+}
+@font-face {
+  font-family: "PFRegalTextPro";
+  src: url("../fonts/PFRegalTextProMedium.eot");
+  src: url("../fonts/PFRegalTextProMedium.eot?#iefix") format("embedded-opentype"), url("../fonts/PFRegalTextProMedium.woff2") format("woff2"), url("../fonts/PFRegalTextProMedium.woff") format("woff"), url("../fonts/PFRegalTextProMedium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+}
+@font-face {
+  font-family: "PFRegalTextPro";
+  src: url("../fonts/PFRegalTextProRegularB.eot");
+  src: url("../fonts/PFRegalTextProRegularB.eot?#iefix") format("embedded-opentype"), url("../fonts/PFRegalTextProRegularB.woff2") format("woff2"), url("../fonts/PFRegalTextProRegularB.woff") format("woff"), url("../fonts/PFRegalTextProRegularB.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+}
+section {
+  border: 1px solid black;
+}
+
+.container {
+  width: 90vw;
+  max-width: 1138px;
+  margin: 10px auto;
+  min-height: 10px;
+}
+
+.header_container {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 0;
+}
+
+.logo_img img {
+  height: 100px;
+  width: auto;
+}
+
+.header_menu .menu_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+}/*# sourceMappingURL=style.css.map */

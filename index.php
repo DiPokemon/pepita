@@ -1,9 +1,38 @@
 <?php get_header(); ?>
 
-            <section class="container">
-                <div class="section_title"><h2><span class="section_title-text">Оффер</span></h2></div>
+            <section class="container">                
                 <div class="offer_block">
-
+                    <div class="offer_block-body"> 
+                        
+                        <div class="offer_block-content">
+                            <div class="offer_block_wrapper">
+                                <h1 class="offer_block-title">Нужны шторы, но нет времени чтобы их выбрать?</h1>    
+                                <div class="offer_block-subtext">Мы Вам поможем с выбором по каталогам онлайн! Позвони и получи дополнительную скидку по промо коду «онлайн»</div>
+                                <div class="offer_block-subtitle">
+                                    <div class="offer_block-subtitle-item"><span><img loading="lazy" src="<?php echo get_template_directory_uri()?>/static/img/soft_star.svg" alt="img"></span>В новый дом со скидкой 20 %</div>                              
+                                    <div class="offer_block-subtitle-item"><span><img loading="lazy" src="<?php echo get_template_directory_uri()?>/static/img/soft_star.svg" alt="img"></span>Подарки от партнеров</div>                              
+                                    <div class="offer_block-subtitle-item"><span><img loading="lazy" src="<?php echo get_template_directory_uri()?>/static/img/soft_star.svg" alt="img"></span>Скидка на электрокарнизы 10</div>
+                                </div>
+                                <a href="https://wa.me/79514976107" class="btn offer_block-btn" >Задайте вопрос в What’sApp</a>
+                            </div>
+                        </div>
+                        <div class="offer_block-image">
+                            <div class="offer_block-image_grid">
+                                <div class="offer_block-image-item">
+                                    <div class="offer_block-image-title">Для любой задачи есть решение!</div>
+                                </div>                            
+                                <div class="offer_block-image-item">
+                                    <img loading="lazy" src="<?php echo get_template_directory_uri()?>/static/img/manufacture_2.jpg" alt="Производство штор в Ростове">
+                                </div>
+                                <div class="offer_block-image-item">
+                                    <img loading="lazy" src="<?php echo get_template_directory_uri()?>/static/img/work_3.jpg" alt="img">
+                                </div>
+                                <div class="offer_block-image-item">
+                                    <img loading="lazy" src="<?php echo get_template_directory_uri()?>/static/img/work_4.jpg" alt="img">
+                                </div>
+                            </div>  
+                        </div>
+                    </div>
                 </div>
             </section>
 

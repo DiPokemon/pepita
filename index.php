@@ -39,7 +39,32 @@
             <section class="container">
                 <div class="section_title"><h2><span class="section_title-text">Преимущества</span></h2></div>
                 <div class="advantages_block">
-                    
+                    <div class="advantages_item">
+                        <div class="advantage_digit">
+                            10        
+                        </div>
+                        <div class="advantage_text">
+                            Лорем ипсум текст лалала
+                        </div>
+                    </div>
+
+                    <div class="advantages_item">
+                        <div class="advantage_digit">
+                            15       
+                        </div>
+                        <div class="advantage_text">
+                            Лорем ипсум текст лалала
+                        </div>
+                    </div>
+
+                    <div class="advantages_item">
+                        <div class="advantage_digit">
+                            20       
+                        </div>
+                        <div class="advantage_text">
+                            Лорем ипсум текст лалала
+                        </div>
+                    </div>
 
                 </div>
             </section>
@@ -47,35 +72,104 @@
             <section class="container">
                 <div class="section_title"><h2><span class="section_title-text">Портфолио</span></h2></div>
                 <div class="portfolio_block">
-
+                    <div class="portfolio_item">
+                        <img src="<?php echo get_template_directory_uri()?>/static/img/work_3.jpg" alt="" />
+                    </div>
+                    <div class="portfolio_item">
+                        <img src="<?php echo get_template_directory_uri()?>/static/img/work_4.jpg" alt="" />
+                    </div>
+                    <div class="portfolio_item">
+                        <img src="<?php echo get_template_directory_uri()?>/static/img/work_7.jpg" alt="" />
+                    </div>
+                    <div class="portfolio_item">
+                        <img src="<?php echo get_template_directory_uri()?>/static/img/work_9.jpg" alt="" />
+                    </div>
+                    <div class="portfolio_item">
+                        <img src="<?php echo get_template_directory_uri()?>/static/img/work_14.jpg" alt="" />
+                    </div>
                 </div>
             </section>
 
             <section class="container">
                 <div class="section_title"><h2><span class="section_title-text">Наша миссия</span></h2></div>
                 <div class="mission_block">
-
+                    <p class="text_block">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil, iure optio repellat maxime doloribus reprehenderit labore eaque nostrum, incidunt dicta veritatis doloremque, iste ipsam sequi minima? Asperiores culpa et distinctio!</p>
                 </div>
             </section>            
 
             <section class="container">
                 <div class="section_title"><h2><span class="section_title-text">Цитат руководителя</span></h2></div>
                 <div class="director_block">
-
+                    <div class="director_img">
+                        <img src="<?php echo get_template_directory_uri()?>/static/img/director_test.jpg" alt="">
+                        <div class="director_name">
+                            Александр Пушкин
+                        </div>
+                        <div class="director_subtext">
+                            Миллиардер, плейбой, филантроп
+                        </div>
+                    </div>
+                    <div class="director_text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores dignissimos eos eaque veniam, nulla placeat quibusdam veritatis excepturi odit in aperiam vel amet porro, dicta voluptatem accusamus, neque praesentium iste.</p>
+                    </div>
                 </div>
             </section>
 
             <section class="container">
                 <div class="section_title"><h2><span class="section_title-text">Готовые работы</span></h2></div>
                 <div class="gallery_works_block">
-
+                    <div class="works_item">
+                        <img src="<?php echo get_template_directory_uri()?>/static/img/work_3.jpg" alt="" />
+                    </div>
+                    <div class="workso_item">
+                        <img src="<?php echo get_template_directory_uri()?>/static/img/work_4.jpg" alt="" />
+                    </div>
+                    <div class="works_item">
+                        <img src="<?php echo get_template_directory_uri()?>/static/img/work_7.jpg" alt="" />
+                    </div>
+                    <div class="works_item">
+                        <img src="<?php echo get_template_directory_uri()?>/static/img/work_9.jpg" alt="" />
+                    </div>
+                    <div class="works_item">
+                        <img src="<?php echo get_template_directory_uri()?>/static/img/work_14.jpg" alt="" />
+                    </div>
                 </div>
             </section>
 
             <section class="container">
                 <div class="section_title"><h2><span class="section_title-text">Этапы работы</span></h2></div>
                 <div class="steps_block">
-
+                    <ul class="steps_line">
+                        <li>
+                            <h3>Личное общение</h3>
+                            <p>В переписке или по видеосвязи Вы сообщаете краткую информацию о предстоящем заказе (сколько оконо, в каком стиле хотели бы оформить и тому подобное).</p>
+                        </li>
+                        <li>                            
+                            <h3>Фотографии</h3>
+                            <p>Высылаете мне фото Ваших интерьеров в вчернее и дневное время</p>
+                        </li>
+                        <li>
+                            <h3>Замеры</h3>
+                            <p>Я готовлю замерные листы с указаниями какие размеры мне потребуются для дальнейшей работы</p>
+                        </li>
+                        <li>
+                            <h3>Эскизы и чертежи</h3>
+                            <p>Отрисовка эскизов и чертежей. Эскизы выполняются в виде скетчей и в программе фотошоп</p>
+                        </li>
+                        <li>
+                            <h3>Смета</h3>
+                            <p>После утверждения эскизов я подбираю ткани подходящие для вашего интерьера, составляю смету проекта.</p>
+                        </li>
+                        <li>
+                            <h3>Пошив</h3>
+                            <p>Если Вас все устраивает, запускаем в работу.</p>
+                        </li>
+                        <li>
+                            <h3>Отправка</h3>
+                            <p>Заказ отправляю по почте или транспортной компанией. К готовому заказу прилагаются рекомендации по уходу и монтажу.</p>
+                        </li>
+                    </ul>
+                    <p>Я всегда буду с вами на связи если возникнут какие-либо вопросы.</p>
                 </div>
             </section>
 

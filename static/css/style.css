@@ -1,3 +1,59 @@
+@font-face {
+  font-family: "PFRegalTextPro";
+  src: url("../fonts/PFRegalTextPro.eot");
+  src: url("../fonts/PFRegalTextPro.eot?#iefix") format("embedded-opentype"), url("../fonts/PFRegalTextPro.woff2") format("woff2"), url("../fonts/PFRegalTextPro.woff") format("woff"), url("../fonts/PFRegalTextPro.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+}
+@font-face {
+  font-family: "PFRegalTextPro";
+  src: url("../fonts/PFRegalTextProBold.eot");
+  src: url("../fonts/PFRegalTextProBold.eot?#iefix") format("embedded-opentype"), url("../fonts/PFRegalTextProBold.woff2") format("woff2"), url("../fonts/PFRegalTextProBold.woff") format("woff"), url("../fonts/PFRegalTextProBold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+}
+@font-face {
+  font-family: "PFRegalTextPro";
+  src: url("../fonts/PFRegalTextProMedium.eot");
+  src: url("../fonts/PFRegalTextProMedium.eot?#iefix") format("embedded-opentype"), url("../fonts/PFRegalTextProMedium.woff2") format("woff2"), url("../fonts/PFRegalTextProMedium.woff") format("woff"), url("../fonts/PFRegalTextProMedium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+}
+@font-face {
+  font-family: "PFRegalTextPro";
+  src: url("../fonts/PFRegalTextProRegularB.eot");
+  src: url("../fonts/PFRegalTextProRegularB.eot?#iefix") format("embedded-opentype"), url("../fonts/PFRegalTextProRegularB.woff2") format("woff2"), url("../fonts/PFRegalTextProRegularB.woff") format("woff"), url("../fonts/PFRegalTextProRegularB.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+}
+@font-face {
+  font-family: "PFBagueSansPro";
+  src: url("../fonts/PFBagueSansProPro.eot");
+  src: url("../fonts/PFBagueSansProPro.eot?#iefix") format("embedded-opentype"), url("../fonts/PFBagueSansProPro.woff2") format("woff2"), url("../fonts/PFBagueSansProPro.woff") format("woff"), url("../fonts/PFBagueSansProPro.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+}
+@font-face {
+  font-family: "PFBagueSansPro";
+  src: url("../fonts/PFBagueSansProLight.eot");
+  src: url("../fonts/PFBagueSansProLight.eot?#iefix") format("embedded-opentype"), url("../fonts/PFBagueSansProLight.woff2") format("woff2"), url("../fonts/PFBagueSansProLight.woff") format("woff"), url("../fonts/PFBagueSansProLight.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+}
+@font-face {
+  font-family: "PFBagueSansPro";
+  src: url("../fonts/PFBagueSansProThin.eot");
+  src: url("../fonts/PFBagueSansProThin.eot?#iefix") format("embedded-opentype"), url("../fonts/PFBagueSansProThin.woff2") format("woff2"), url("../fonts/PFBagueSansProThin.woff") format("woff"), url("../fonts/PFBagueSansProThin.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+  font-stretch: normal;
+}
 *,
 *::before,
 *::after {
@@ -66,17 +122,6 @@ select {
   font: inherit;
 }
 
-@media (prefers-reduced-motion: reduce) {
-  * {
-    -webkit-animation-duration: 0.01ms !important;
-            animation-duration: 0.01ms !important;
-    -webkit-animation-iteration-count: 1 !important;
-            animation-iteration-count: 1 !important;
-    -webkit-transition-duration: 0.01ms !important;
-            transition-duration: 0.01ms !important;
-    scroll-behavior: auto !important;
-  }
-}
 .d_flex {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -87,17 +132,27 @@ select {
   display: none;
 }
 
+body {
+  background-color: #fff;
+}
+
+section:not(:first-child) {
+  padding: 50px 0;
+}
+
 .section_title {
-  color: #907c4B;
-  font-family: "PFRegalTextPro";
-  font-weight: 400;
-  font-size: 20px;
   text-align: center;
-  text-transform: uppercase;
   position: relative;
+  margin-bottom: 40px;
 }
 
 .section_title-text {
+  font-family: "PFRegalTextPro";
+  font-size: 25px;
+  font-weight: 500;
+  color: #c02222;
+  text-align: center;
+  text-transform: uppercase;
   z-index: 2;
   background-color: #fff;
   padding: 0 40px;
@@ -109,7 +164,7 @@ select {
   display: block;
   height: 1px;
   border: none;
-  background-color: #907c4B;
+  background-color: #c02222;
   z-index: 1;
   width: 100%;
   position: absolute;
@@ -118,40 +173,33 @@ select {
           transform: translateY(-50%);
 }
 
-@font-face {
-  font-family: "PFRegalTextPro";
-  src: url("../fonts/PFRegalTextPro.eot");
-  src: url("../fonts/PFRegalTextPro.eot?#iefix") format("embedded-opentype"), url("../fonts/PFRegalTextPro.woff2") format("woff2"), url("../fonts/PFRegalTextPro.woff") format("woff"), url("../fonts/PFRegalTextPro.ttf") format("truetype");
-  font-weight: 300;
-  font-style: normal;
-  font-stretch: normal;
+a.btn {
+  font-family: "PFBagueSansPro";
+  font-weight: 600;
+  font-size: 20px;
+  display: inline-block;
+  border: 2px solid #c02222;
+  padding: 5px 10px;
+  border-radius: 10px;
+  color: #c02222;
 }
-@font-face {
-  font-family: "PFRegalTextPro";
-  src: url("../fonts/PFRegalTextProBold.eot");
-  src: url("../fonts/PFRegalTextProBold.eot?#iefix") format("embedded-opentype"), url("../fonts/PFRegalTextProBold.woff2") format("woff2"), url("../fonts/PFRegalTextProBold.woff") format("woff"), url("../fonts/PFRegalTextProBold.ttf") format("truetype");
-  font-weight: 700;
-  font-style: normal;
-  font-stretch: normal;
-}
-@font-face {
-  font-family: "PFRegalTextPro";
-  src: url("../fonts/PFRegalTextProMedium.eot");
-  src: url("../fonts/PFRegalTextProMedium.eot?#iefix") format("embedded-opentype"), url("../fonts/PFRegalTextProMedium.woff2") format("woff2"), url("../fonts/PFRegalTextProMedium.woff") format("woff"), url("../fonts/PFRegalTextProMedium.ttf") format("truetype");
-  font-weight: 500;
-  font-style: normal;
-  font-stretch: normal;
-}
-@font-face {
-  font-family: "PFRegalTextPro";
-  src: url("../fonts/PFRegalTextProRegularB.eot");
-  src: url("../fonts/PFRegalTextProRegularB.eot?#iefix") format("embedded-opentype"), url("../fonts/PFRegalTextProRegularB.woff2") format("woff2"), url("../fonts/PFRegalTextProRegularB.woff") format("woff"), url("../fonts/PFRegalTextProRegularB.ttf") format("truetype");
+
+p.text_block {
+  font-family: "PFBagueSansPro";
   font-weight: 400;
-  font-style: normal;
-  font-stretch: normal;
+  font-size: 20px;
 }
-section {
-  border: 1px solid black;
+
+.slick-dots li button:before {
+  color: #55828e !important;
+}
+.slick-dots li.slick-active button:before {
+  color: #c02222 !important;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: #55828e !important;
 }
 
 .container {
@@ -169,6 +217,7 @@ section {
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin-top: 0;
+  padding: 10px 0;
 }
 
 .logo_img img {
@@ -218,15 +267,17 @@ section {
   font-size: 45px;
   line-height: 135%;
   text-transform: uppercase;
-  color: black;
+  color: #55828e;
 }
 
 .offer_block-subtext {
+  font-family: "PFBagueSansPro";
   padding: 35px 0;
   font-size: 20px;
 }
 
 .offer_block-subtitle {
+  font-family: "PFBagueSansPro";
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -278,16 +329,17 @@ section {
 
 .offer_block-image-item {
   border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 5px #55828e;
+          box-shadow: 0px 0px 5px #55828e;
 }
 .offer_block-image-item img {
   height: 250px;
-  max-width: 200px;
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 5px;
 }
 .offer_block-image-item:first-child {
-  border: 1px solid #3F3354;
+  border: 1px solid #55828e;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -309,4 +361,144 @@ section {
 .offer_block-image-item:nth-child(odd) {
   -webkit-transform: translateY(-50px);
           transform: translateY(-50px);
+}
+
+.advantages_block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  gap: 10px;
+}
+.advantages_block .advantages_item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.advantages_block .advantages_item .advantage_digit {
+  font-family: "PFRegalTextPro";
+  font-size: 40px;
+  font-weight: 400;
+  color: #55828e;
+}
+.advantages_block .advantages_item .advantage_text {
+  font-family: "PFBagueSansPro";
+  font-size: 20px;
+}
+
+.portfolio_block .slick-track {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  padding: 10px 0;
+}
+.portfolio_block .slick-track .portfolio_item img {
+  max-height: 260px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 5px #55828e;
+          box-shadow: 0px 0px 5px #55828e;
+}
+.portfolio_block .slick-slide {
+  max-height: 260px;
+}
+
+.director_block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 50px;
+  background-color: gray;
+  padding: 20px;
+  border-radius: 10px;
+}
+.director_block .director_img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.director_block .director_img img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.director_block .director_name,
+.director_block .director_subtext {
+  text-align: center;
+}
+
+.director_text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.director_text p {
+  padding: 0 50px;
+}
+.director_text p:before {
+  content: "";
+  display: block;
+  width: 46px;
+  height: 32px;
+  margin-bottom: 16px;
+  background: url(../img/quote.svg);
+}
+.director_text p:after {
+  content: "";
+  display: block;
+  width: 46px;
+  height: 32px;
+  margin-top: 16px;
+  margin-left: auto;
+  background: url(../img/quote.svg);
+}
+
+.steps_line {
+  position: relative;
+  padding-left: 40px !important;
+}
+.steps_line:before {
+  content: " ";
+  background: #55828e;
+  display: inline-block;
+  position: absolute;
+  left: 29px;
+  width: 2px;
+  height: 100%;
+  z-index: 2;
+}
+.steps_line li {
+  margin: 20px 0;
+  padding-left: 20px;
+}
+.steps_line li:before {
+  content: " ";
+  background: #fff;
+  display: inline-block;
+  position: absolute;
+  border-radius: 50%;
+  border: 3px solid #c02222;
+  left: 20px;
+  width: 20px;
+  height: 20px;
+  z-index: 3;
 }

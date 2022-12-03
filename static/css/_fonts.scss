@@ -35,4 +35,39 @@
   font-style: normal;
   font-stretch: normal
 }
-  
+ 
+@font-face {
+  font-family:'PFBagueSansPro';
+  src: url('../fonts/PFBagueSansProPro.eot');
+  src: url('../fonts/PFBagueSansProPro.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/PFBagueSansProPro.woff2') format('woff2'),
+  url('../fonts/PFBagueSansProPro.woff') format('woff'),
+  url('../fonts/PFBagueSansProPro.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family:'PFBagueSansPro';
+  src: url('../fonts/PFBagueSansProLight.eot');
+  src: url('../fonts/PFBagueSansProLight.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/PFBagueSansProLight.woff2') format('woff2'),
+  url('../fonts/PFBagueSansProLight.woff') format('woff'),
+  url('../fonts/PFBagueSansProLight.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family:'PFBagueSansPro';
+  src: url('../fonts/PFBagueSansProThin.eot');
+  src: url('../fonts/PFBagueSansProThin.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/PFBagueSansProThin.woff2') format('woff2'),
+  url('../fonts/PFBagueSansProThin.woff') format('woff'),
+  url('../fonts/PFBagueSansProThin.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+  font-stretch: normal;
+}

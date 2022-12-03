@@ -1,4 +1,7 @@
 $main_brown: #907c4B;
+$main_blue: #55828e;
+$main_red: #c02222;
+$background_white: #fff;
 
 .d_flex{
   display: flex
@@ -7,19 +10,33 @@ $main_brown: #907c4B;
   display: none
 }
 
+body{
+  background-color: $background_white;
+}
+
+section:not(:first-child){
+  padding: 50px 0;
+}
+
 .section_title{
-  color: $main_brown;
-  font-family: "PFRegalTextPro";
-  font-weight: 400;
-  font-size: 20px;
+  // color: $main_red;
+  // font-family: "PFRegalTextPro";
+  // font-size: 20px;  
+  // text-transform: uppercase;
   text-align: center;
-  text-transform: uppercase;
-  position: relative
+  position: relative;
+  margin-bottom: 40px;
 }
 
 .section_title-text{
+  font-family: "PFRegalTextPro";
+  font-size: 25px;
+  font-weight: 500;
+  color: $main_red;  
+  text-align: center;
+  text-transform: uppercase;  
   z-index: 2;
-  background-color: #fff;
+  background-color: $background_white;
   padding: 0 40px;
   position: relative
 }
@@ -30,7 +47,7 @@ $main_brown: #907c4B;
     display: block;
     height: 1px;
     border: none;
-    background-color: $main_brown;
+    background-color: $main_red;
     z-index: 1;
     width: 100%  ;
     position: absolute;
@@ -38,3 +55,46 @@ $main_brown: #907c4B;
     transform: translateY(-50%)
   }      
 }    
+
+a {
+  &.btn {
+    font-family: "PFBagueSansPro";
+    font-weight: 600;
+    font-size: 20px;
+    display: inline-block;
+    border: 2px solid $main_red;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: $main_red;
+  }
+}
+
+p {
+  &.text_block{
+    font-family: "PFBagueSansPro";
+    font-weight: 400;
+    font-size: 20px;
+  }
+}
+
+.slick-dots {
+
+  li {
+
+    button:before{
+      color: $main_blue!important
+    }
+
+    &.slick-active {
+      button:before {
+        color: $main_red!important
+      }
+    }
+
+  }
+}
+
+.slick-prev:before, 
+.slick-next:before{
+  color: $main_blue!important
+}

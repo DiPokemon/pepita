@@ -29,7 +29,47 @@ $(document).ready(function () {
         cssEase: 'linear',
         slidesToShow: 3,
         slidesToScroll: 1
+    });
+    
+    $('.gallery_works_block').slick({
+        infinite: true,
+        autoplay: true,
+        dots: true,
+        arrow: true,
+        cssEase: 'linear',
+        slidesToShow: 3,
+        slidesToScroll: 1
+    });
+    
+    $('.gallery_manufacture_block').slick({
+        infinite: true,
+        autoplay: true,
+        dots: true,
+        arrow: true,
+        cssEase: 'linear',
+        slidesToShow: 3,
+        slidesToScroll: 1
+    });
+    
+    $('.materials_block').slick({
+        dots: false,
+        arrow:false,
+        infinite: true,
+        autoplay: true,
+        cssEase: 'linear',
+        slidesToShow: 4,
+        slidesToScroll: 1
+    });
+    
+    $('.testimonials_block').slick({
+        dots: true,
+        arrow:false,
+        infinite: true,
+        autoplay: false,
+        cssEase: 'linear',
+        slidesToShow: 1,
+        slidesToScroll: 1
       });
  
 });
-
+testimonials_block

@@ -18,7 +18,7 @@
 
 .logo_img {
   img {
-    height: 100px;
+    height: 40px;
     width: auto
   }
 }
@@ -187,7 +187,6 @@
 .director_block{
   display: flex;
   gap: 50px;
-  background-color: gray;
   padding: 20px;
   border-radius: 10px;
 
@@ -207,6 +206,14 @@
   .director_subtext{
     text-align: center;
   }
+}
+
+.director_name{
+  font-family: "PFRegalTextPro";
+}
+
+.director_subtext{
+  font-family: "PFBagueSansPro";
 }
 
 .director_text {
@@ -237,6 +244,28 @@
 }
 
 // GALLERY WORKS
+
+.gallery_works_block {
+  .slick-track{
+    display: flex;
+    gap: 10px;  
+    padding: 10px 0; 
+  }
+  
+    
+  .works_item{
+    img{
+      max-height: 260px;        
+      object-fit: cover;
+      border-radius: 10px;
+      box-shadow: 0px 0px 5px $main_blue;;
+    }
+  }
+
+  .slick-slide{
+    max-height: 260px;
+  } 
+}
 
 // STEPS
 
@@ -273,6 +302,79 @@
   }
 }
 
+// MANUFACTURE
 
+.gallery_manufacture_block {
+  .slick-track{
+    display: flex;
+    gap: 10px;  
+    padding: 10px 0; 
+  }
+  
+    
+  .manufacture_item{
+    img{
+      max-height: 260px;   
+      height: 260px;     
+      object-fit: cover;
+      border-radius: 10px;
+      box-shadow: 0px 0px 5px $main_blue;;
+    }
+  }
 
+  .slick-slide{
+    max-height: 260px;
+  } 
+}
 
+// MATERIALS
+
+.materials_block {
+  .slick-track{
+    display: flex;
+    gap: 20px;  
+    padding: 10px 0; 
+  }
+  
+    
+  .materials_item{
+    img{         
+      max-height: 100px;   
+      height: 100px;     
+      object-fit: contain; 
+    }
+  }
+
+  .slick-slide{
+    max-height: 100px;
+  } 
+}
+
+// TESTIMONIALS
+
+.testimonial_item{
+  display: flex!important;
+  flex-direction: column;
+  padding: 50px;
+  gap: 20px;
+
+  .testimonial_footer{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+    .testimonial_img img{
+      height: 100px;
+      width: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+    .testimonial_author{
+      font-family: "PFRegalTExtPro";
+      font-size: 20px;
+      text-transform: uppercase;
+      font-weight: 400;
+    }
+  }
+}

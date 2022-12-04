@@ -376,6 +376,10 @@ header {
           transform: translateY(-50px);
 }
 
+.offer_image-slider {
+  display: none;
+}
+
 .advantages_block {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -401,10 +405,12 @@ header {
   font-size: 40px;
   font-weight: 400;
   color: #55828e;
+  text-align: center;
 }
 .advantages_block .advantages_item .advantage_text {
   font-family: "PFBagueSansPro";
   font-size: 20px;
+  text-align: center;
 }
 
 .portfolio_block .slick-track {
@@ -616,10 +622,69 @@ header {
      object-fit: cover;
 }
 .testimonial_item .testimonial_footer .testimonial_author {
-  font-family: "PFRegalTExtPro";
+  font-family: "PFRegalTextPro";
   font-size: 20px;
   text-transform: uppercase;
   font-weight: 400;
+}
+
+.contacts_block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+}
+.contacts_block .wpcf7-submit {
+  background: none;
+  border: 2px solid #c02222;
+  border-radius: 10px;
+  padding: 10px;
+  font-family: "PFBagueSansPro";
+  color: #c02222;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.contact_text {
+  font-family: "PFBagueSansPro";
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.half_column {
+  width: 50%;
+}
+.half_column input:not(.wpcf7-submit),
+.half_column textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  border: 1px solid #8eb2bb;
+  border-radius: 5px;
+  padding: 5px;
+}
+.half_column input:not(.wpcf7-submit)::-webkit-input-placeholder, .half_column textarea::-webkit-input-placeholder {
+  color: #6e9ca8;
+  font-family: "PFBagueSansPro";
+}
+.half_column input:not(.wpcf7-submit)::-moz-placeholder, .half_column textarea::-moz-placeholder {
+  color: #6e9ca8;
+  font-family: "PFBagueSansPro";
+}
+.half_column input:not(.wpcf7-submit):-ms-input-placeholder, .half_column textarea:-ms-input-placeholder {
+  color: #6e9ca8;
+  font-family: "PFBagueSansPro";
+}
+.half_column input:not(.wpcf7-submit)::-ms-input-placeholder, .half_column textarea::-ms-input-placeholder {
+  color: #6e9ca8;
+  font-family: "PFBagueSansPro";
+}
+.half_column input:not(.wpcf7-submit)::placeholder,
+.half_column textarea::placeholder {
+  color: #6e9ca8;
+  font-family: "PFBagueSansPro";
+}
+.half_column input {
+  margin-bottom: 10px;
 }
 
 footer {
@@ -642,4 +707,54 @@ footer {
   font-weight: 500;
   text-transform: uppercase;
   font-size: 20px;
+}
+
+@media (max-width: 1000px) {
+  .offer_block-body {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 20px;
+  }
+  .offer_block-content,
+.offer_block-image {
+    width: 100%;
+  }
+  .offer_block-image_grid {
+    grid-template-columns: repeat(4, 1fr);
+    -webkit-transform: none;
+            transform: none;
+  }
+  .offer_block-image_grid .offer_block-image-item {
+    -webkit-transform: none;
+            transform: none;
+  }
+  .offer_block-image_grid .offer_block-image-item:nth-child(odd) {
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+@media (max-width: 768px) {
+  .offer_block-image_grid {
+    display: none;
+  }
+  .offer_image-slider {
+    display: block;
+  }
+  .offer_image-slider .slick-track {
+    padding: 10px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 10px;
+  }
+  .offer_image-slider-item img {
+    -webkit-box-shadow: 0px 0px 5px #55828e;
+            box-shadow: 0px 0px 5px #55828e;
+    max-width: 250px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-radius: 10px;
+  }
 }

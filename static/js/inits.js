@@ -21,6 +21,41 @@ $(document).ready(function () {
         }
     });
 
+    
+    if (  jQuery(window).width() < 768 ) {
+            $('.offer_image-slider').slick({
+                infinite: true,
+                autoplay: false,
+                dots: false,
+                arrows: false,
+                slidesToShow: 3,
+                slidesToScroll: 1,        
+            }); 
+    };
+        
+
+       
+
+    $('.advantages_block').slick({
+        infinite: true,
+        autoplay: true,
+        dots: false,
+        arrows: false,
+        cssEase: 'linear',
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        responsive: [
+            {
+              breakpoint: 550,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+              }
+            }
+          ]
+    });
+    
+
     $('.portfolio_block').slick({
         infinite: true,
         autoplay: true,

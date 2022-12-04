@@ -2,6 +2,7 @@
 @import "reset";
 @import "all";
 
+
 .container{
   width: 90vw;
   max-width: 1138px;
@@ -34,7 +35,7 @@ header{
     gap: 10px
   }   
   a.menu_link{
-    font-family: 'PFBagueSansPro';
+    font-family: $second_font;
     font-weight: 600;
     font-size: 20px;
     text-transform: uppercase;
@@ -65,7 +66,7 @@ header{
 }
 
 .offer_block-title{
-  font-family: "PFRegalTextPro";
+  font-family: $main_font;
   font-style: normal;
   font-weight: 500;
   font-size: 45px;
@@ -75,13 +76,13 @@ header{
 }
 
 .offer_block-subtext{
-  font-family: "PFBagueSansPro";
+  font-family: $second_font;
   padding: 35px 0;
   font-size: 20px;
 }
 
 .offer_block-subtitle{
-  font-family: "PFBagueSansPro";
+  font-family: $second_font;
   display: flex;
   margin-bottom: 56px;
   justify-content: space-between;
@@ -145,6 +146,9 @@ header{
   }
 }
 
+.offer_image-slider{
+  display: none;
+}
 // ADVANTAGES 
 
 .advantages_block{
@@ -158,14 +162,16 @@ header{
     align-items: center;
 
     .advantage_digit{
-      font-family: 'PFRegalTextPro';
+      font-family: $main_font;
       font-size: 40px;
       font-weight: 400;
       color: $main_blue;
+      text-align: center;
     }
     .advantage_text{
-      font-family: 'PFBagueSansPro';
+      font-family: $second_font;
       font-size: 20px;
+      text-align: center;
     }
   }
 }
@@ -222,11 +228,11 @@ header{
 }
 
 .director_name{
-  font-family: "PFRegalTextPro";
+  font-family: $main_font;
 }
 
 .director_subtext{
-  font-family: "PFBagueSansPro";
+  font-family: $second_font;
 }
 
 .director_text {
@@ -284,7 +290,7 @@ header{
 // STEPS
 
 .steps_block{
-  font-family: 'PFBagueSansPro';
+  font-family: $second_font;
 }
 
 .steps_line{
@@ -377,7 +383,7 @@ header{
   gap: 20px;
 
   .testimonial_text{
-    font-family: 'PFBagueSansPro';
+    font-family: $second_font;
     font-size: 20px;
   }
 
@@ -394,7 +400,7 @@ header{
     }
 
     .testimonial_author{
-      font-family: "PFRegalTExtPro";
+      font-family: $main_font;
       font-size: 20px;
       text-transform: uppercase;
       font-weight: 400;
@@ -403,6 +409,54 @@ header{
 }
 
 //CONTACTS
+
+.contacts_block{
+  display: flex;
+  gap: 20px;
+
+  .wpcf7-submit{
+    background: none;
+    border: 2px solid $main_red;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: 'PFBagueSansPro';
+    color: $main_red;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+}
+
+.contact_text{
+  font-family: $second_font;
+  font-weight: 400;
+  font-size: 20px
+}
+
+
+
+.half_column{
+  width: 50%;
+
+  input:not(.wpcf7-submit), 
+  textarea {
+    width: 100%;  
+    margin-bottom: 10px;
+    border: 1px solid lighten($main_blue, 20%);
+    border-radius: 5px;
+    padding: 5px;  
+
+    &::placeholder{
+      color: lighten($main_blue, 10%);
+      font-family: $second_font;
+    }
+  }
+
+  input{
+    margin-bottom: 10px
+  }
+}
+
+
 
 //FOOTER
 
@@ -422,10 +476,12 @@ footer{
   a {
     &.menu_link{
       color: #fff;
-      font-family: 'PFBagueSansPro';
+      font-family: $second_font;
       font-weight: 500;
       text-transform: uppercase;
       font-size: 20px;
     }
   }
 }
+
+@import "adaptive";

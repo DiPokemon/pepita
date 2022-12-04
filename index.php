@@ -31,6 +31,20 @@
                                     <img loading="lazy" src="<?php echo get_template_directory_uri()?>/static/img/work_4.jpg" alt="img">
                                 </div>
                             </div>  
+                            <div class="offer_image-slider">
+                                <div class="offer_image-slider-item">
+                                    <img loading="lazy" src="<?php echo get_template_directory_uri()?>/static/img/manufacture_2.jpg" alt="Производство штор в Ростове">
+                                </div>                           
+                                <div class="offer_image-slider-item">
+                                    <img loading="lazy" src="<?php echo get_template_directory_uri()?>/static/img/manufacture_2.jpg" alt="Производство штор в Ростове">
+                                </div>
+                                <div class="offer_image-slider-item">
+                                    <img loading="lazy" src="<?php echo get_template_directory_uri()?>/static/img/work_3.jpg" alt="img">
+                                </div>
+                                <div class="offer_image-slider-item">
+                                    <img loading="lazy" src="<?php echo get_template_directory_uri()?>/static/img/work_4.jpg" alt="img">
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -299,7 +313,14 @@
             <section class="container">
                 <div class="section_title"><h2><span class="section_title-text">Контакты</span></h2></div>
                 <div class="contacts_block">
-
+                    <div class="half_column contact_text">
+                        <a href="tel:+79999999999" class="contact_phone">+7 999 999-99-99</a>   
+                        <div class="address">г. Ростов-на-Дону, ул. Ленина, д. 777</div>     
+                        <a href="mailto:test@mail.ru" class="contact_email">test@mail.ru</a>    
+                    </div>
+                    <div class="half_column form_column">
+                        <?php echo do_shortcode('[contact-form-7 id="18" title="ФОС"]'); ?>
+                    </div>
                 </div>
             </section>
 

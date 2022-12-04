@@ -209,6 +209,12 @@ p.text_block {
   min-height: 10px;
 }
 
+header {
+  border-bottom: 1px solid #edf3f5;
+  -webkit-box-shadow: 0px 1px 5px #55828e;
+          box-shadow: 0px 1px 5px #55828e;
+}
+
 .header_container {
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -230,6 +236,13 @@ p.text_block {
   display: -ms-flexbox;
   display: flex;
   gap: 10px;
+}
+.header_menu a.menu_link {
+  font-family: "PFBagueSansPro";
+  font-weight: 600;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #c02222;
 }
 
 .offer_block {
@@ -457,6 +470,7 @@ p.text_block {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  font-size: 20px;
 }
 .director_text p {
   padding: 0 50px;
@@ -496,6 +510,10 @@ p.text_block {
 }
 .gallery_works_block .slick-slide {
   max-height: 260px;
+}
+
+.steps_block {
+  font-family: "PFBagueSansPro";
 }
 
 .steps_line {
@@ -576,6 +594,10 @@ p.text_block {
           flex-direction: column;
   padding: 50px;
   gap: 20px;
+}
+.testimonial_item .testimonial_text {
+  font-family: "PFBagueSansPro";
+  font-size: 20px;
 }
 .testimonial_item .testimonial_footer {
   display: -webkit-box;

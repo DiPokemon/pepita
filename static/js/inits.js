@@ -25,7 +25,7 @@ $(document).ready(function () {
         infinite: true,
         autoplay: true,
         dots: true,
-        arrow: true,
+        arrows: true,
         cssEase: 'linear',
         slidesToShow: 3,
         slidesToScroll: 1
@@ -35,7 +35,7 @@ $(document).ready(function () {
         infinite: true,
         autoplay: true,
         dots: true,
-        arrow: true,
+        arrows: true,
         cssEase: 'linear',
         slidesToShow: 3,
         slidesToScroll: 1
@@ -45,7 +45,7 @@ $(document).ready(function () {
         infinite: true,
         autoplay: true,
         dots: true,
-        arrow: true,
+        arrows: true,
         cssEase: 'linear',
         slidesToShow: 3,
         slidesToScroll: 1
@@ -53,7 +53,7 @@ $(document).ready(function () {
     
     $('.materials_block').slick({
         dots: false,
-        arrow:false,
+        arrows:false,
         infinite: true,
         autoplay: true,
         cssEase: 'linear',
@@ -63,7 +63,7 @@ $(document).ready(function () {
     
     $('.testimonials_block').slick({
         dots: true,
-        arrow:false,
+        arrows:false,
         infinite: true,
         autoplay: false,
         cssEase: 'linear',

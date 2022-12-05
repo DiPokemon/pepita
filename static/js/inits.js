@@ -19,92 +19,181 @@ $(document).ready(function () {
              
             show = false;
         }
-    });
+    });          
+          
+    $('.slider_wrapper').each(function (index, sliderWrap) {
+        var $advantages = $(sliderWrap).find('.advantages_block');
+        var $portfolio = $(sliderWrap).find('.portfolio_block');
+        var $works = $(sliderWrap).find('.gallery_works_block');
+        var $manufacture = $(sliderWrap).find('.gallery_manufacture_block');
+        var $materials = $(sliderWrap).find('.materials_block');
+        var $testimonials = $(sliderWrap).find('.testimonials_block');
+        var $next = $(sliderWrap).find('.slick-m-next');
+        var $prev = $(sliderWrap).find('.slick-m-prev');
+        var $dots = $(sliderWrap).find('.slide-m-dots');
 
-    
-    if (  jQuery(window).width() < 768 ) {
-            $('.offer_image-slider').slick({
-                infinite: true,
-                autoplay: false,
-                dots: false,
-                arrows: false,
-                slidesToShow: 3,
-                slidesToScroll: 1,        
-            }); 
-    };
+        $advantages.slick({
+            infinite: true,
+            autoplay: true,
+            dots: false,
+            arrows: false,
+            cssEase: 'linear',
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            responsive: [
+                {
+                  breakpoint: 550,
+                  settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                  }
+                }
+              ]
+        });
         
+    
+        $portfolio.slick({
+            infinite: true,
+            autoplay: false,
+            dots: true,
+            arrows: true,
+             nextArrow: $next,
+             prevArrow: $prev,
+             appendDots: $dots,
+            cssEase: 'linear',
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            responsive: [
+                {
+                  breakpoint: 768,
+                  settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1
+                  }
+                },
+                {
+                    breakpoint: 500,
+                    settings: {
+                      slidesToShow: 1,
+                      slidesToScroll: 1
+                    }
+                  }
+              ]
+        });
+        
+        $works.slick({
+            infinite: true,
+            autoplay: true,
+            dots: true,
+            arrows: true,
+            nextArrow: $next,
+             prevArrow: $prev,
+             appendDots: $dots,
+            cssEase: 'linear',
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            responsive: [
+                {
+                  breakpoint: 768,
+                  settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1
+                  }
+                },
+                {
+                    breakpoint: 500,
+                    settings: {
+                      slidesToShow: 1,
+                      slidesToScroll: 1
+                    }
+                  }
+              ]
+        });
+        
+        $manufacture.slick({
+            infinite: true,
+            autoplay: true,
+            dots: true,
+            arrows: true,
+            nextArrow: $next,
+             prevArrow: $prev,
+             appendDots: $dots,
+            cssEase: 'linear',
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            responsive: [
+                {
+                  breakpoint: 768,
+                  settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1
+                  }
+                },
+                {
+                    breakpoint: 500,
+                    settings: {
+                      slidesToShow: 1,
+                      slidesToScroll: 1
+                    }
+                  }
+              ]
+        });
+        
+        $materials.slick({
+            dots: false,
+            arrows:false,
+            infinite: true,
+            autoplay: true,
+            cssEase: 'linear',
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            responsive: [
+                {
+                  breakpoint: 768,
+                  settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1
+                  }
+                },
+                {
+                    breakpoint: 500,
+                    settings: {
+                      slidesToShow: 2,
+                      slidesToScroll: 1
+                    }
+                },
+                {
+                    breakpoint: 400,
+                    settings: {
+                      slidesToShow: 1,
+                      slidesToScroll: 1
+                    }
+                  }
+              ]
+        });
+        
+        $testimonials.slick({
+            dots: true,
+            arrows: false,
+             appendDots: $dots,
+            infinite: true,
+            autoplay: false,
+            cssEase: 'linear',
+            slidesToShow: 1,
+            slidesToScroll: 1
+          });
 
-       
+    });
 
-    $('.advantages_block').slick({
-        infinite: true,
-        autoplay: true,
-        dots: false,
-        arrows: false,
-        cssEase: 'linear',
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        responsive: [
-            {
-              breakpoint: 550,
-              settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1
-              }
-            }
-          ]
-    });
-    
+    // $('.offer_image-slider').slick({
+    //     infinite: true,
+    //     autoplay: false,
+    //     dots: false,
+    //     arrows: false,
+    //     slidesToShow: 3,
+    //     slidesToScroll: 1, 
+    // }); 
 
-    $('.portfolio_block').slick({
-        infinite: true,
-        autoplay: true,
-        dots: true,
-        arrows: true,
-        cssEase: 'linear',
-        slidesToShow: 3,
-        slidesToScroll: 1
-    });
     
-    $('.gallery_works_block').slick({
-        infinite: true,
-        autoplay: true,
-        dots: true,
-        arrows: true,
-        cssEase: 'linear',
-        slidesToShow: 3,
-        slidesToScroll: 1
-    });
-    
-    $('.gallery_manufacture_block').slick({
-        infinite: true,
-        autoplay: true,
-        dots: true,
-        arrows: true,
-        cssEase: 'linear',
-        slidesToShow: 3,
-        slidesToScroll: 1
-    });
-    
-    $('.materials_block').slick({
-        dots: false,
-        arrows:false,
-        infinite: true,
-        autoplay: true,
-        cssEase: 'linear',
-        slidesToShow: 4,
-        slidesToScroll: 1
-    });
-    
-    $('.testimonials_block').slick({
-        dots: true,
-        arrows:false,
-        infinite: true,
-        autoplay: false,
-        cssEase: 'linear',
-        slidesToShow: 1,
-        slidesToScroll: 1
-      });
  
 });
-testimonials_block

@@ -197,9 +197,46 @@ p.text_block {
   color: #c02222 !important;
 }
 
+.slider_controls {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+
+.slick-prev,
+.slick-next {
+  position: static !important;
+  top: 0 !important;
+  -webkit-transform: none !important;
+          transform: none !important;
+}
+
 .slick-prev:before,
-.slick-next:before {
+.slick-next:before,
+.slick-m-prev:before,
+.slick-m-next:before {
   color: #55828e !important;
+}
+
+.slide-m-dots .slick-dots {
+  position: static;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .container {
@@ -222,7 +259,7 @@ header {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-top: 0;
+  margin: 0 auto;
   padding: 10px 0;
 }
 
@@ -455,6 +492,8 @@ header {
   border-radius: 50%;
   -o-object-fit: cover;
      object-fit: cover;
+  -webkit-box-shadow: 0px 0px 10px #55828e;
+          box-shadow: 0px 0px 10px #55828e;
 }
 .director_block .director_name,
 .director_block .director_subtext {
@@ -516,6 +555,12 @@ header {
 }
 .gallery_works_block .slick-slide {
   max-height: 260px;
+}
+
+.contact_text img {
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 5px #55828e;
+          box-shadow: 0px 0px 5px #55828e;
 }
 
 .steps_block {
@@ -620,6 +665,8 @@ header {
   border-radius: 50%;
   -o-object-fit: cover;
      object-fit: cover;
+  -webkit-box-shadow: 0px 0px 10px #55828e;
+          box-shadow: 0px 0px 10px #55828e;
 }
 .testimonial_item .testimonial_footer .testimonial_author {
   font-family: "PFRegalTextPro";
@@ -736,25 +783,82 @@ footer {
   }
 }
 @media (max-width: 768px) {
+  .offer_block {
+    padding: 50px 0 0 0;
+  }
   .offer_block-image_grid {
     display: none;
   }
-  .offer_image-slider {
-    display: block;
+  .offer_block-title {
+    font-size: 35px;
   }
-  .offer_image-slider .slick-track {
-    padding: 10px 0;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+  .offer_block-subtitle {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     gap: 10px;
   }
-  .offer_image-slider-item img {
-    -webkit-box-shadow: 0px 0px 5px #55828e;
-            box-shadow: 0px 0px 5px #55828e;
-    max-width: 250px;
+  .contacts_block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .half_column {
+    width: 100%;
+  }
+  .contact_text img {
+    height: 200px;
     -o-object-fit: cover;
        object-fit: cover;
-    border-radius: 10px;
+  }
+  .director_block {
+    padding: 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    gap: 20px;
+  }
+  .director_block .director_img {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 10px;
+  }
+  .director_block .director_img img {
+    height: 150px;
+    width: 150px;
+    gap: 10px;
+  }
+  .director_block .director_text p {
+    padding: 0;
+  }
+  .testimonial_item {
+    padding: 0;
+  }
+}
+@media (max-width: 500px) {
+  .offer_block-title {
+    font-size: 25px;
+  }
+}
+@media (max-width: 410px) {
+  .section_title {
+    border-bottom: 1px solid #c02222;
+  }
+  .section_title .section_title-text {
+    padding: 0;
+  }
+  .section_title h2:after {
+    display: none;
   }
 }

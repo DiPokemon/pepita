@@ -97,7 +97,35 @@ p {
   }
 }
 
-.slick-prev:before, 
-.slick-next:before{
-  color: $main_blue!important
+.slider_controls{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
 }
+
+.slick-prev,
+.slick-next{
+  position: static !important;;
+  top: 0 !important;;
+  transform: none!important;
+}
+
+.slick-prev:before, 
+.slick-next:before,
+.slick-m-prev:before, 
+.slick-m-next:before{
+  color: $main_blue!important;
+}
+
+
+
+.slide-m-dots {
+  .slick-dots{
+    position: static;
+    display: flex;
+    align-items: center;
+  }
+}
+

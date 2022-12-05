@@ -208,6 +208,6 @@ $(document).ready(function () {
         columns.attr('style','height:' + tallestcolumn + 'px');
     }
     
-        setEqualHeight($(".portfolio_item img"));
+        // setEqualHeight($(".portfolio_item img"));
    
 });

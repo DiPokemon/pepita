@@ -122,24 +122,46 @@
             </section>            
 
             <section class="container">
-                <div class="section_title"><h2><span class="section_title-text">Цитат руководителя</span></h2></div>
-                <div class="director_block">
-                    <div class="director_img">
-                        <img src="<?php echo get_template_directory_uri()?>/static/img/director_test.jpg" alt="">
-                        <div class="director_desc">
-                            <div class="director_name">
-                                Александр Пушкин
+                <div class="section_title"><h2><span class="section_title-text">Наши дизайнеры</span></h2></div>
+                <div class="slider_wrapper">
+                    <div class="designer_block">
+                        <div class="designer_slide">
+                            <div class="designer_img">
+                                <img src="<?php echo get_template_directory_uri()?>/static/img/director_test.jpg" alt="">
+                                <div class="designer_desc">
+                                    <div class="designer_name">
+                                        Александр Пушкин123
+                                    </div>
+                                    <div class="designer_subtext">
+                                        Миллиардер, плейбой, филантроп123
+                                    </div>
+                                </div>
+                                
                             </div>
-                            <div class="director_subtext">
-                                Миллиардер, плейбой, филантроп
+                            <div class="designer_text">
+                                <p>12321Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores dignissimos eos eaque veniam, nulla placeat quibusdam veritatis excepturi odit in aperiam vel amet porro, dicta voluptatem accusamus, neque praesentium iste.</p>
                             </div>
                         </div>
-                        
-                    </div>
-                    <div class="director_text">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores dignissimos eos eaque veniam, nulla placeat quibusdam veritatis excepturi odit in aperiam vel amet porro, dicta voluptatem accusamus, neque praesentium iste.</p>
+                        <div class="designer_slide">
+                            <div class="designer_img">
+                                <img src="<?php echo get_template_directory_uri()?>/static/img/director_test.jpg" alt="">
+                                <div class="designer_desc">
+                                    <div class="designer_name">
+                                        Александр Пушкин
+                                    </div>
+                                    <div class="designer_subtext">
+                                        Миллиардер, плейбой, филантроп
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <div class="designer_text">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores dignissimos eos eaque veniam, nulla placeat quibusdam veritatis excepturi odit in aperiam vel amet porro, dicta voluptatem accusamus, neque praesentium iste.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
+                
             </section>
 
             <section class="container">
@@ -188,38 +210,74 @@
 
             <section class="container">
                 <div class="section_title"><h2><span class="section_title-text">Этапы работы</span></h2></div>
-                <div class="steps_block">
-                    <ul class="steps_line">
-                        <li>
-                            <h3>Личное общение</h3>
-                            <p>В переписке или по видеосвязи Вы сообщаете краткую информацию о предстоящем заказе (сколько оконо, в каком стиле хотели бы оформить и тому подобное).</p>
-                        </li>
-                        <li>                            
-                            <h3>Фотографии</h3>
-                            <p>Высылаете мне фото Ваших интерьеров в вчернее и дневное время</p>
-                        </li>
-                        <li>
-                            <h3>Замеры</h3>
-                            <p>Я готовлю замерные листы с указаниями какие размеры мне потребуются для дальнейшей работы</p>
-                        </li>
-                        <li>
-                            <h3>Эскизы и чертежи</h3>
-                            <p>Отрисовка эскизов и чертежей. Эскизы выполняются в виде скетчей и в программе фотошоп</p>
-                        </li>
-                        <li>
-                            <h3>Смета</h3>
-                            <p>После утверждения эскизов я подбираю ткани подходящие для вашего интерьера, составляю смету проекта.</p>
-                        </li>
-                        <li>
-                            <h3>Пошив</h3>
-                            <p>Если Вас все устраивает, запускаем в работу.</p>
-                        </li>
-                        <li>
-                            <h3>Отправка</h3>
-                            <p>Заказ отправляю по почте или транспортной компанией. К готовому заказу прилагаются рекомендации по уходу и монтажу.</p>
-                        </li>
-                    </ul>
-                    <p>Я всегда буду с вами на связи если возникнут какие-либо вопросы.</p>
+                <div class="slider_wrapper">
+                    <div class="steps_block">
+                        <ul class="steps_line">   
+                            <h2>Он-лайн заказ</h2>                     
+                            <li>
+                                <h3>Личное общение</h3>
+                                <p>В переписке или по видеосвязи Вы сообщаете краткую информацию о предстоящем заказе (сколько оконо, в каком стиле хотели бы оформить и тому подобное).</p>
+                            </li>
+                            <li>                            
+                                <h3>Фотографии</h3>
+                                <p>Высылаете мне фото Ваших интерьеров в вчернее и дневное время</p>
+                            </li>
+                            <li>
+                                <h3>Замеры</h3>
+                                <p>Я готовлю замерные листы с указаниями какие размеры мне потребуются для дальнейшей работы</p>
+                            </li>
+                            <li>
+                                <h3>Эскизы и чертежи</h3>
+                                <p>Отрисовка эскизов и чертежей. Эскизы выполняются в виде скетчей и в программе фотошоп</p>
+                            </li>
+                            <li>
+                                <h3>Смета</h3>
+                                <p>После утверждения эскизов я подбираю ткани подходящие для вашего интерьера, составляю смету проекта.</p>
+                            </li>
+                            <li>
+                                <h3>Пошив</h3>
+                                <p>Если Вас все устраивает, запускаем в работу.</p>
+                            </li>
+                            <li>
+                                <h3>Отправка</h3>
+                                <p>Заказ отправляю по почте или транспортной компанией. К готовому заказу прилагаются рекомендации по уходу и монтажу.</p>
+                            </li>
+                        </ul>
+
+                        <ul class="steps_line">   
+                            <h2>Офф-лайн заказ</h2>                     
+                            <li>
+                                <h3>Выезд дизайнера</h3>
+                                <p>К Вам выезжает специалист для ознакомления и замера, профессионально оценивает интерьер и опеределяет стиль.</p>
+                            </li>                       
+                            <li>                            
+                                <h3>Дизайн-проект</h3>
+                                <p>Мы составляем дизайн-проект с учетом пожеланий клиента и особенностей помещения</p>
+                            </li>
+                            <li>
+                                <h3>Консультация</h3>
+                                <p>Консультирование клиента по всем вопросам выбора тканей, аксессуаров, карнизов</p>
+                            </li>
+                            <li>
+                                <h3>Рекомендации по оформлению</h3>
+                                <p>Дизайнер расскажет о роли текстиля для дома, пошиве балдахинов, покрывал, подушек и других изделий любой сложности, которые могли бы гармонично сочетаться со шторами и обстановкой в целом</p>
+                            </li>
+                            <li>
+                                <h3>Договор</h3>
+                                <p>Заключаем договор и отдаем заказ в пошив</p>
+                            </li>
+                            <li>
+                                <h3>Пошив</h3>
+                                <p>Если Вас все устраивает, запускаем в работу.</p>
+                            </li>
+                            <li>
+                                <h3>Отправка</h3>
+                                <p>Заказ отправляю по почте или транспортной компанией. К готовому заказу прилагаются рекомендации по уходу и монтажу.</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <p class="text_block">Срок изготовления варьируется в зависимости от объема и сложности заказа. Монтаж штор и карнизов осуществляется в удобное для Вас время. Также, предоставляется услуга чистки и монтажа штор при дальнейшем использовании.</p>
+                    <p class="text_block">Я всегда буду с вами на связи если возникнут какие-либо вопросы.</p>
                 </div>
                 
             </section>

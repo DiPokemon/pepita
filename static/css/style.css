@@ -54,6 +54,38 @@
   font-style: normal;
   font-stretch: normal;
 }
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/InterLight.eot");
+  src: url("../fonts/InterLight.eot?#iefix") format("embedded-opentype"), url("../fonts/InterLight.woff2") format("woff2"), url("../fonts/InterLight.woff") format("woff"), url("../fonts/InterLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+  font-stretch: normal;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/InterMedium.eot");
+  src: url("../fonts/InterMedium.eot?#iefix") format("embedded-opentype"), url("../fonts/InterMedium.woff2") format("woff2"), url("../fonts/InterMedium.woff") format("woff"), url("../fonts/InterMedium.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/InterRegular.eot");
+  src: url("../fonts/InterRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/InterRegular.woff2") format("woff2"), url("../fonts/InterRegular.woff") format("woff"), url("../fonts/InterRegular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/InterSemiBold.eot");
+  src: url("../fonts/InterSemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/InterSemiBold.woff2") format("woff2"), url("../fonts/InterSemiBold.woff") format("woff"), url("../fonts/InterSemiBold.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+}
 *,
 *::before,
 *::after {
@@ -147,9 +179,9 @@ section:not(:first-child) {
 }
 
 .section_title-text {
-  font-family: "PFRegalTextPro";
+  font-family: "Inter";
   font-size: 25px;
-  font-weight: 500;
+  font-weight: 400;
   color: #c02222;
   text-align: center;
   text-transform: uppercase;
@@ -311,7 +343,7 @@ header {
 }
 
 .offer_block-title {
-  font-family: "PFRegalTextPro";
+  font-family: "Inter";
   font-style: normal;
   font-weight: 500;
   font-size: 45px;
@@ -438,7 +470,7 @@ header {
           align-items: center;
 }
 .advantages_block .advantages_item .advantage_digit {
-  font-family: "PFRegalTextPro";
+  font-family: "Inter";
   font-size: 40px;
   font-weight: 400;
   color: #55828e;
@@ -469,7 +501,7 @@ header {
   max-height: 260px;
 }
 
-.director_block {
+.designer_block {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -477,7 +509,7 @@ header {
   padding: 20px;
   border-radius: 10px;
 }
-.director_block .director_img {
+.designer_block .designer_img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -486,7 +518,7 @@ header {
       -ms-flex-direction: column;
           flex-direction: column;
 }
-.director_block .director_img img {
+.designer_block .designer_img img {
   height: 200px;
   width: 200px;
   border-radius: 50%;
@@ -495,20 +527,27 @@ header {
   -webkit-box-shadow: 0px 0px 10px #55828e;
           box-shadow: 0px 0px 10px #55828e;
 }
-.director_block .director_name,
-.director_block .director_subtext {
+.designer_block .designer_name,
+.designer_block .designer_subtext {
   text-align: center;
 }
 
-.director_name {
-  font-family: "PFRegalTextPro";
+.designer_slide {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  padding: 10px;
 }
 
-.director_subtext {
+.designer_name {
+  font-family: "Inter";
+}
+
+.designer_subtext {
   font-family: "PFBagueSansPro";
 }
 
-.director_text {
+.designer_text {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -517,10 +556,11 @@ header {
           align-items: center;
   font-size: 20px;
 }
-.director_text p {
+.designer_text p {
+  font-family: "PFBagueSansPro";
   padding: 0 50px;
 }
-.director_text p:before {
+.designer_text p:before {
   content: "";
   display: block;
   width: 46px;
@@ -528,7 +568,7 @@ header {
   margin-bottom: 16px;
   background: url(../img/quote.svg);
 }
-.director_text p:after {
+.designer_text p:after {
   content: "";
   display: block;
   width: 46px;
@@ -565,6 +605,7 @@ header {
 
 .steps_block {
   font-family: "PFBagueSansPro";
+  margin-bottom: 20px;
 }
 
 .steps_line {
@@ -669,7 +710,7 @@ header {
           box-shadow: 0px 0px 10px #55828e;
 }
 .testimonial_item .testimonial_footer .testimonial_author {
-  font-family: "PFRegalTextPro";
+  font-family: "Inter";
   font-size: 20px;
   text-transform: uppercase;
   font-weight: 400;
@@ -813,15 +854,17 @@ footer {
     -o-object-fit: cover;
        object-fit: cover;
   }
-  .director_block {
+  .designer_block {
     padding: 0;
+  }
+  .designer_block .designer_slide {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
     gap: 20px;
   }
-  .director_block .director_img {
+  .designer_block .designer_img {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
@@ -834,12 +877,12 @@ footer {
             justify-content: center;
     gap: 10px;
   }
-  .director_block .director_img img {
+  .designer_block .designer_img img {
     height: 150px;
     width: 150px;
     gap: 10px;
   }
-  .director_block .director_text p {
+  .designer_block .designer_text p {
     padding: 0;
   }
   .testimonial_item {

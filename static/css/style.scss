@@ -203,13 +203,13 @@ header{
 
 // DIRECTOR CITATE
 
-.director_block{
+.designer_block{
   display: flex;
   gap: 50px;
   padding: 20px;
   border-radius: 10px;
 
-  .director_img {
+  .designer_img {
     display: flex;
     flex-direction: column;
 
@@ -222,26 +222,32 @@ header{
     }
   }
   
-  .director_name,
-  .director_subtext{
+  .designer_name,
+  .designer_subtext{
     text-align: center;
   }
 }
 
-.director_name{
+.designer_slide {
+  display: flex!important;
+  padding: 10px;
+}
+
+.designer_name{
   font-family: $main_font;
 }
 
-.director_subtext{
+.designer_subtext{
   font-family: $second_font;
 }
 
-.director_text {
+.designer_text {
   display: flex;
   align-items: center;
   font-size: 20px;
 
   p{
+    font-family: $second_font;
     padding: 0 50px;
 
     &:before {
@@ -299,6 +305,8 @@ header{
 
 .steps_block{
   font-family: $second_font;
+  margin-bottom: 20px
+
 }
 
 .steps_line{

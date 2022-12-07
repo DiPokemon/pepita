@@ -25,9 +25,11 @@ $(document).ready(function () {
         var $advantages = $(sliderWrap).find('.advantages_block');
         var $portfolio = $(sliderWrap).find('.portfolio_block');
         var $works = $(sliderWrap).find('.gallery_works_block');
+        var $designers = $(sliderWrap).find('.designer_block');
         var $manufacture = $(sliderWrap).find('.gallery_manufacture_block');
         var $materials = $(sliderWrap).find('.materials_block');
         var $testimonials = $(sliderWrap).find('.testimonials_block');
+        var $steps = $(sliderWrap).find('.steps_block');
         var $next = $(sliderWrap).find('.slick-m-next');
         var $prev = $(sliderWrap).find('.slick-m-prev');
         var $dots = $(sliderWrap).find('.slide-m-dots');
@@ -110,6 +112,36 @@ $(document).ready(function () {
               ]
         });
         
+        $designers.slick({
+          infinite: true,
+          autoplay: false,
+          dots: false,
+          arrows: false,
+          cssEase: 'linear',
+          slidesToShow: 1,
+          slidesToScroll: 1,          
+        });
+        
+      
+        $steps.slick({
+          infinite: true,
+          autoplay: true,   
+          arrows: false,
+          dots:false,
+          cssEase: 'linear',
+          slidesToShow: 2,
+          slidesToScroll: 1,  
+          responsive: [
+            {
+              breakpoint: 768,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+              }
+            }            
+          ]
+        });
+      
         $manufacture.slick({
             infinite: true,
             autoplay: true,
@@ -185,14 +217,6 @@ $(document).ready(function () {
 
     });
 
-    // $('.offer_image-slider').slick({
-    //     infinite: true,
-    //     autoplay: false,
-    //     dots: false,
-    //     arrows: false,
-    //     slidesToShow: 3,
-    //     slidesToScroll: 1, 
-    // }); 
 
     
     function setEqualHeight(columns){

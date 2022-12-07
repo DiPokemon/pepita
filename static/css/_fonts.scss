@@ -71,3 +71,52 @@
   font-style: normal;
   font-stretch: normal;
 }
+
+@font-face {
+  font-family:'Inter';
+  src: url('../fonts/InterLight.eot');
+  src: url('../fonts/InterLight.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/InterLight.woff2') format('woff2'),
+  url('../fonts/InterLight.woff') format('woff'),
+  url('../fonts/InterLight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family:'Inter';
+  src: url('../fonts/InterMedium.eot');
+  src: url('../fonts/InterMedium.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/InterMedium.woff2') format('woff2'),
+  url('../fonts/InterMedium.woff') format('woff'),
+  url('../fonts/InterMedium.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family:'Inter';
+  src: url('../fonts/InterRegular.eot');
+  src: url('../fonts/InterRegular.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/InterRegular.woff2') format('woff2'),
+  url('../fonts/InterRegular.woff') format('woff'),
+  url('../fonts/InterRegular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family:'Inter';
+  src: url('../fonts/InterSemiBold.eot');
+  src: url('../fonts/InterSemiBold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/InterSemiBold.woff2') format('woff2'),
+  url('../fonts/InterSemiBold.woff') format('woff'),
+  url('../fonts/InterSemiBold.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+}
+

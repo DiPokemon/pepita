@@ -3,7 +3,7 @@ $main_blue: #55828e;
 $main_red: #c02222;
 $background_white: #fff;
 
-$main_font: "PFRegalTextPro";
+$main_font: "Inter";
 $second_font: "PFBagueSansPro";
 
 .d_flex{
@@ -22,19 +22,15 @@ section:not(:first-child){
 }
 
 .section_title{
-  // color: $main_red;
-  // font-family: "PFRegalTextPro";
-  // font-size: 20px;  
-  // text-transform: uppercase;
   text-align: center;
   position: relative;
   margin-bottom: 40px;
 }
 
 .section_title-text{
-  font-family: "PFRegalTextPro";
+  font-family: $main_font;
   font-size: 25px;
-  font-weight: 500;
+  font-weight: 400;
   color: $main_red;  
   text-align: center;
   text-transform: uppercase;  
@@ -61,7 +57,7 @@ section:not(:first-child){
 
 a {
   &.btn {
-    font-family: "PFBagueSansPro";
+    font-family: $second_font;
     font-weight: 600;
     font-size: 20px;
     display: inline-block;
@@ -74,7 +70,7 @@ a {
 
 p {
   &.text_block{
-    font-family: "PFBagueSansPro";
+    font-family: $second_font;
     font-weight: 400;
     font-size: 20px;
   }

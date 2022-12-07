@@ -75,12 +75,15 @@
     
 
 
-    .director_block{
-        padding: 0;
-        flex-direction: column-reverse;
-        gap: 20px;
+    .designer_block{
+        padding: 0;       
+        
+        .designer_slide{
+            flex-direction: column-reverse;
+            gap: 20px;
+        }
 
-        .director_img{
+        .designer_img{
             flex-direction: row;
             align-items: center;
             justify-content: center;
@@ -94,10 +97,12 @@
 
         }
 
-        .director_text p{
+        .designer_text p{
             padding:0;
         }
     }
+
+
 
     .testimonial_item{
         padding: 0

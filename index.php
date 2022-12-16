@@ -139,7 +139,7 @@
                                 
                             </div>
                             <div class="designer_text">
-                                <p>12321Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores dignissimos eos eaque veniam, nulla placeat quibusdam veritatis excepturi odit in aperiam vel amet porro, dicta voluptatem accusamus, neque praesentium iste.</p>
+                                <p>Я искренне убеждена, что изысканный интерьер может напрямую оказывать благотворное воздействие на нашу жизнь в целом.</p>
                             </div>
                         </div>
                         <div class="designer_slide">

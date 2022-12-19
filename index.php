@@ -122,18 +122,18 @@
             </section>            
 
             <section class="container">
-                <div class="section_title"><h2><span class="section_title-text">Наши дизайнеры</span></h2></div>
+                <!--<div class="section_title"><h2><span class="section_title-text">Наши дизайнеры</span></h2></div>-->
                 <div class="slider_wrapper">
                     <div class="designer_block">
                         <div class="designer_slide">
                             <div class="designer_img">
-                                <img src="<?php echo get_template_directory_uri()?>/static/img/director_test.jpg" alt="">
+                                <img src="<?php echo get_template_directory_uri()?>/static/img/designer_elena.png" alt="">
                                 <div class="designer_desc">
                                     <div class="designer_name">
-                                        Александр Пушкин123
+                                        Елена
                                     </div>
                                     <div class="designer_subtext">
-                                        Миллиардер, плейбой, филантроп123
+                                        наш дизайнер
                                     </div>
                                 </div>
                                 

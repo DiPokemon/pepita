@@ -389,28 +389,36 @@
                     <div class="testimonials_block">
                         <div class="testimonial_item">
                             <div class="testimonial_text">
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae iste adipisci libero modi, ad eaque repellat ipsam labore iure quisquam cupiditate amet quae placeat in, nisi, corporis minima neque. Veritatis.
+                            Большое спасибо Леночке за оформление текстилем нашей квартиры, 
+                            все очень хорошо вписалось в интерьер. Даже не думала, что такие 
+                            шторы бывают, таких штор как у меня нет больше ни у кого!!! 
+                            Теперь знакомые спрашивают где заказать! Искренне рекомендую, Лена создает эксклюзив
                             </div>
                             <div class="testimonial_footer">
                                 <div class="testimonial_img">
-                                    <img src="<?php echo get_template_directory_uri()?>/static/img/director_test.jpg" alt="">
+                                    <img src="<?php echo get_template_directory_uri()?>/static/img/review_tatiana.png" alt="">
                                 </div>
                                 <div class="testimonial_author">
-                                    АВТОР 1
+                                    Татьяна
                                 </div>
                             </div>
                         </div>
 
                         <div class="testimonial_item">
                             <div class="testimonial_text">
-                                123 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae iste adipisci libero modi, ad eaque repellat ipsam labore iure quisquam cupiditate amet quae placeat in, nisi, corporis minima neque. Veritatis.
+                                Обращалась к Елене для пошива штор в детскую. Она настоящая феечка. 
+                                Это просто волшебство, то что она придумала и реализовала для нас. 
+                                Мы с детьми остались очень довольны цветами и текстурой изделий. качеством услуг. 
+                                Настолько разнообразный выбор, что глаза разбегаются🙂, но под внимательным руководством 
+                                Елены как отличного специалиста, все складывается и превращается в сказку. Качество пошива тоже на высоте. 
+                                Заказывала тюль и шторы. Спасибо Елене за волшебство. Буду рекомендовать всем свои знакомым.
                             </div>
                             <div class="testimonial_footer">
                                 <div class="testimonial_img">
-                                    <img src="<?php echo get_template_directory_uri()?>/static/img/director_test.jpg" alt="">
+                                    <img src="<?php echo get_template_directory_uri()?>/static/img/review_ekaterina.png" alt="">
                                 </div>
                                 <div class="testimonial_author">
-                                    АВТОР 2
+                                    Екатерина
                                 </div>
                             </div>
                         </div>

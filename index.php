@@ -184,7 +184,7 @@
                         <img src="<?php echo get_template_directory_uri()?>/static/img/work_14.jpg" alt="">  
                     </div>
                     <div class="half_column form_column">
-                        <?php echo do_shortcode('[contact-form-7 id="20" title="ФОС"]'); ?>
+                        <?php echo do_shortcode('[contact-form-7 id="5" title="ФОС"]'); ?>
                     </div>
                 </div>                
             </section>
@@ -415,7 +415,7 @@
                         <a href="mailto:test@mail.ru" class="contact_email">test@mail.ru</a>    
                     </div>
                     <div class="half_column form_column">
-                        <?php echo do_shortcode('[contact-form-7 id="20" title="ФОС"]'); ?>
+                        <?php echo do_shortcode('[contact-form-7 id="5" title="ФОС"]'); ?>
                     </div>
                 </div>
             </section>

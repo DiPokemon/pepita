@@ -1,9 +1,7 @@
 <?php get_header(); ?>
-
             <section class="container">                
                 <div class="offer_block">
-                    <div class="offer_block-body"> 
-                        
+                    <div class="offer_block-body">                         
                         <div class="offer_block-content">
                             <div class="offer_block_wrapper">
                                 <h1 class="offer_block-title">Нужны шторы, но нет времени чтобы их выбрать?</h1>    
@@ -32,20 +30,6 @@
                                 </div>
                             </div>                              
                         </div>
-                        <!-- <div class="offer_image-slider">
-                                <div class="offer_image-slider-item">
-                                    <img loading="lazy" src="<?php echo get_template_directory_uri()?>/static/img/manufacture_2.jpg" alt="Производство штор в Ростове">
-                                </div>
-                                <div class="offer_image-slider-item">
-                                    <img loading="lazy" src="<?php echo get_template_directory_uri()?>/static/img/manufacture_2.jpg" alt="Производство штор в Ростове">
-                                </div>
-                                <div class="offer_image-slider-item">
-                                    <img loading="lazy" src="<?php echo get_template_directory_uri()?>/static/img/work_3.jpg" alt="img">
-                                </div>
-                                <div class="offer_image-slider-item">
-                                    <img loading="lazy" src="<?php echo get_template_directory_uri()?>/static/img/work_4.jpg" alt="img">
-                                </div>
-                        </div> -->
                     </div>
                 </div>
             </section>
@@ -82,8 +66,7 @@
                         </div>
 
                     </div>
-                </div>
-                
+                </div>                
             </section>
 
             <section class="container">
@@ -160,8 +143,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                
+                </div>                
             </section>
 
             <section class="container">
@@ -197,7 +179,6 @@
                 <div class="section_title">
                     <h2><span class="section_title-text">Закажите расчёт у дизайнера</span></h2>                    
                 </div>
-
                 <div class="contacts_block">
                     <div class="half_column contact_text">
                         <img src="<?php echo get_template_directory_uri()?>/static/img/work_14.jpg" alt="">  
@@ -278,8 +259,7 @@
                     </div>
                     <p class="text_block">Срок изготовления варьируется в зависимости от объема и сложности заказа. Монтаж штор и карнизов осуществляется в удобное для Вас время. Также, предоставляется услуга чистки и монтажа штор при дальнейшем использовании.</p>
                     <p class="text_block">Я всегда буду с вами на связи если возникнут какие-либо вопросы.</p>
-                </div>
-                
+                </div>                
             </section>
 
             <section class="container">
@@ -307,8 +287,7 @@
                         <div class="slide-m-dots"></div>
                         <button class="slick-next slick-arrow slick-m-next"></button>
                     </div>
-                </div>
-                
+                </div>                
             </section>
 
             <section class="container">
@@ -379,8 +358,7 @@
                             <img src="<?php echo get_template_directory_uri()?>/static/img/logos/york.png" alt="" />
                         </div>
                     </div>
-                </div>
-                
+                </div>                
             </section>
 
             <section class="container">
@@ -403,7 +381,6 @@
                                 </div>
                             </div>
                         </div>
-
                         <div class="testimonial_item">
                             <div class="testimonial_text">
                                 Обращалась к Елене для пошива штор в детскую. Она настоящая феечка. 
@@ -424,12 +401,9 @@
                         </div>
                     </div>
                     <div class="slider_controls">
-                        <!-- <button class="slick-prev slick-arrow slick-m-prev"></button> -->
                         <div class="slide-m-dots"></div>
-                        <!-- <button class="slick-next slick-arrow slick-m-next"></button> -->
                     </div>
-                </div>
-                
+                </div>                
             </section>
 
             <section class="container">

@@ -340,7 +340,7 @@
                             <img src="<?php echo get_template_directory_uri()?>/static/img/logos/karo.png" alt="" />
                         </div>
                         <div class="materials_item">
-                            <img src="<?php echo get_template_directory_uri()?>/static/img/logos/liontax.png" alt="" />
+                            <img src="<?php echo get_template_directory_uri()?>/static/img/logos/liontex.png" alt="" />
                         </div>
                         <div class="materials_item">
                             <img src="<?php echo get_template_directory_uri()?>/static/img/logos/mirodim.png" alt="" />

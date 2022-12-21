@@ -17,6 +17,10 @@ body{
   background-color: $background_white;
 }
 
+main {
+  padding-top: 70px;
+}
+
 section:not(:first-child){
   padding: 50px 0;
 }
@@ -115,8 +119,6 @@ p {
   color: $main_blue!important;
 }
 
-
-
 .slide-m-dots {
   .slick-dots{
     position: static;
@@ -124,4 +126,3 @@ p {
     align-items: center;
   }
 }
-

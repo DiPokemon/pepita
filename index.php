@@ -412,7 +412,7 @@
                     <div class="half_column contact_text">
                         <a href="tel:+79381097773" class="contact_phone">+7 938 109-77-73</a>   
                         <div class="address">г. Ростов-на-Дону, ул. Ленина, д. 777</div>     
-                        <a href="mailto:test@mail.ru" class="contact_email">test@mail.ru</a>    
+                        <a href="mailto:mail@pepita.pro" class="contact_email">mail@pepita.pro</a>    
                     </div>
                     <div class="half_column form_column">
                         <?php echo do_shortcode('[contact-form-7 id="5" title="ФОС"]'); ?>

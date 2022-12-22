@@ -100,7 +100,7 @@
             <section class="container">
                 <div class="section_title"><h2><span class="section_title-text">Наша миссия</span></h2></div>
                 <div class="mission_block">
-                    <p class="text_block">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil, iure optio repellat maxime doloribus reprehenderit labore eaque nostrum, incidunt dicta veritatis doloremque, iste ipsam sequi minima? Asperiores culpa et distinctio!</p>
+                    <p class="text_block">Миссия компании - помочь нашим клиентам создать индивидуальную атмосферу для жизни, сочетая функциональность и изящество.</p>
                 </div>
             </section>            
 

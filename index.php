@@ -40,28 +40,28 @@
                     <div class="advantages_block">
                         <div class="advantages_item">
                             <div class="advantage_digit">
-                                10        
+                                20      
                             </div>
                             <div class="advantage_text">
-                                Лорем ипсум текст лалала
+                                лет работаем на рынке
                             </div>
                         </div>
 
                         <div class="advantages_item">
                             <div class="advantage_digit">
-                                15       
+                               7000       
                             </div>
                             <div class="advantage_text">
-                                Лорем ипсум текст лалала
+                                выполненных проектов
                             </div>
                         </div>
 
                         <div class="advantages_item">
                             <div class="advantage_digit">
-                                20       
+                                365      
                             </div>
                             <div class="advantage_text">
-                                Лорем ипсум текст лалала
+                                дней в году работает наша поддержка
                             </div>
                         </div>
 

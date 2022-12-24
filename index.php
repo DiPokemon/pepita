@@ -411,7 +411,7 @@
                 <div class="contacts_block">
                     <div class="half_column contact_text">
                         <a href="tel:+79381097773" class="contact_phone">+7 938 109-77-73</a>   
-                        <div class="address">г. Ростов-на-Дону, ул. Ленина, д. 777</div>     
+                        <div class="address">г. Ростов-на-Дону, ул. Фурмановская, д. 63/49</div>     
                         <a href="mailto:mail@pepita.pro" class="contact_email">mail@pepita.pro</a>    
                     </div>
                     <div class="half_column form_column">

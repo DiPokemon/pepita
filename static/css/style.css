@@ -330,6 +330,18 @@ p.text_block {
   width: auto;
 }
 
+.header_phone {
+  z-index: 2;
+}
+
+.header_phone-link {
+  font-family: "PFBagueSansPro";
+  font-weight: 600;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #c02222;
+}
+
 .header_menu {
   z-index: 2;
 }
@@ -1050,5 +1062,10 @@ footer {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+}
+@media (max-width: 380px) {
+  .header_phone-link {
+    font-size: 16px;
   }
 }/*# sourceMappingURL=style.css.map */

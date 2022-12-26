@@ -52,6 +52,19 @@
   }
 }
 
+.header_phone{
+  z-index:2
+}
+
+.header_phone-link {
+    font-family: "PFBagueSansPro";
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #c02222;
+}
+
+
 .header_menu{
   z-index: 2;
   .menu_list{

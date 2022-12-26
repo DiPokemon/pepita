@@ -69,7 +69,7 @@
                 </div>                
             </section>
 
-            <section class="container">
+            <section id="gallery" class="container">
                 <div class="section_title"><h2><span class="section_title-text">Портфолио</span></h2></div>
                 <div class="slider_wrapper">
                     <div class="portfolio_block slider">
@@ -406,7 +406,7 @@
                 </div>                
             </section>
 
-            <section class="container">
+            <section id="contacts" class="container">
                 <div class="section_title"><h2><span class="section_title-text">Контакты</span></h2></div>
                 <div class="contacts_block">
                     <div class="half_column contact_text">
